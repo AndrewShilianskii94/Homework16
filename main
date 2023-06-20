@@ -1,0 +1,8 @@
+from database import create_users_table, create_orders_table, create_offers_table
+from app import app
+
+if __name__ == '__main__':
+    create_users_table()
+    create_orders_table()
+    create_offers_table()
+    app.run()
